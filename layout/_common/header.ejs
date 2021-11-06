@@ -27,7 +27,7 @@
         <li class="menu-item menu-item-<%= itemName %>">
           <a href="<%- url_for(theme.menu[i]) %>">
             <% if(theme.menu_icons.enable) { %>
-            <i class="icon <%= theme.menu_icons[itemName] %>"></i>
+            <i class="fas <%= theme.menu_icons[itemName] %>"></i>
             <% } %>
             <span class="menu-title"><%= __('menu.'+i) %></span>
           </a>

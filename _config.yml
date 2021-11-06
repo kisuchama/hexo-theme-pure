@@ -10,12 +10,12 @@ menu:
 # Enable/Disable menu icons
 menu_icons:
   enable: true  # 是否启用导航菜单图标
-  home: icon-home-fill
-  archives: icon-archives-fill
-  categories: icon-folder
-  tags: icon-tags
+  home: fa-home fa-fw
+  archives: fa-history fa-fw
+  categories: fa-folder fa-fw
+  tags: fa-tags fa-fw
   # links: icon-friendship
-  about: icon-cup-fill
+  about: fa-heart fa-fw
 
 # Site
 site:
@@ -26,8 +26,6 @@ site:
     url: ../images/logo.png
   title: キスちゃま # 页面title
   favicon: /favicon.png
-  # board: <p>欢迎交流与分享经验!</p> # 站点公告
-  copyright: false # 底部版权信息
 
 # config
 config:
@@ -76,7 +74,7 @@ search:
   
 # wordcount
 postCount:
-  enable: false
+  enable: true
   wordcount: true  # 文章字数统计
   min2read: true  # 阅读时长预计 
 
@@ -86,7 +84,7 @@ plugins:
 # profile
 profile:
   enabled: true # Whether to show profile bar
-  avatar: images/avatar.jpg
+  avatar: images/avatar.png
   author: キスちゃま
   author_title: '@kisuchama'
   location: New Million

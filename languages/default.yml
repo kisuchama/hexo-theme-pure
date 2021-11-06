@@ -60,7 +60,7 @@ insight:
   untitled: (Untitled)
 unit:
   word: words
-  time: minutes
+  time: min
 article:
   wordcount: Word Count
   readcount: Read Count
