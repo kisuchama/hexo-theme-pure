@@ -1,9 +1,9 @@
 # menu
 menu:
   Home: .
-  Archives: archives  # 归档
   Categories: categories  # 分类
   Tags: tags  # 标签
+  Archives: archives  # 归档
   # Links: links  # 友链
   About: about  # 关于
 
@@ -11,9 +11,9 @@ menu:
 menu_icons:
   enable: true  # 是否启用导航菜单图标
   home: fa-home fa-fw
-  archives: fa-history fa-fw
   categories: fa-folder fa-fw
   tags: fa-tags fa-fw
+  archives: fa-history fa-fw
   # links: icon-friendship
   about: fa-heart fa-fw
 
@@ -45,7 +45,7 @@ pagination:
     alwayShow: true
 
 # Sidebar
-sidebar: right
+# sidebar: none
 # widgets:
 #   - board  
 #   - category

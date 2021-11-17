@@ -1,0 +1,217 @@
+div.title-card {
+  background-size: contain;
+  background-position: center left;
+  background-repeat: no-repeat;
+
+  width: 1000px;
+  height: 600px;
+
+  position: relative;
+
+  transform: translateX(-30px);
+}
+
+div.card-info {
+  position: absolute;
+  width: 480px;
+  height: 80px;
+  left: 54px;
+  top: 472px;
+}
+
+div.card-info div.card-event {
+  width: 100%;
+  height: 30px;
+  background-image: linear-gradient(to right, white 25%, transparent);
+
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+
+  font-weight: 500;
+  font-size: 20px;
+  color: #00276a;
+}
+
+div.card-info div.card-focus {
+  width: 100%;
+  height: 50px;
+  background-image: linear-gradient(to right, #00276a 25%, transparent);
+
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+
+  font-weight: 500;
+  font-size: 36px;
+  color: white;
+}
+
+div.card-content {
+  position: absolute;
+  width: 480px;
+  height: 100%;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+div.card-content h1 {
+  width: 480px;
+  text-align: right;
+  color: #00276a;
+  border-bottom: 1px solid #00276a;
+}
+
+div.card-content h1 a,
+div.card-content h1 a:hover {
+  color: inherit;
+}
+
+div.card-category {
+  position: static;
+  width: 480px;
+  height: 180px;
+  background: white;
+  margin: 12px 0;
+
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+
+  font-size: 20px;
+  font-style: italic;
+  color: #6f797e;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  padding: 8px;
+}
+
+div.card-category div {
+  flex: 1;
+}
+
+div.card-tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 12px 0;
+
+  position: static;
+  width: 480px;
+  height: 120px;
+
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+}
+
+a.card-btn,
+a.card-btn-mobi {
+  height: 45px;
+  background-color: #00276a;
+  border-radius: 5px;
+  margin-top: 12px;
+  border: 1px solid #00276a;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+
+  transition: 0.1s;
+}
+
+a.card-btn {
+  width: 150px;
+}
+
+a.card-btn-mobi {
+  width: 100%;
+}
+
+a.card-btn:hover,
+a.card-btn-mobi:hover {
+  background-color: white;
+  color: #00276a;
+}
+
+div.title-card-mobi {
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  max-width: 720px;
+  min-width: 414px;
+  height: 720px;
+
+  position: relative;
+
+  transform: translateX(-4%);
+}
+
+div.card-wrapper-mobi {
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  left: 6.5%;
+  right: 6.5%;
+  top: 40%;
+  height: 416px;
+}
+
+div.card-content-mobi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+
+  height: 210px;
+  width: 100%;
+
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.35);
+}
+
+div.card-content-mobi h1 {
+  font-size: 24px;
+  color: #00276a;
+  width: 320px;
+  text-align: center;
+  border-bottom: 1px solid #00276a;
+  margin-top: 0;
+}
+
+div.card-content-mobi a,
+div.card-content-mobi a:hover {
+  color: inherit;
+}
+
+a.card-category-mobi {
+  font-size: 18px;
+  color: #00276a;
+}
+
+div.card-wrapper-mobi p {
+  margin: 24px 0;
+}
+
+div.card-tags-mobi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 12px 0;
+  height: 120px;
+}
