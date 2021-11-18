@@ -34,7 +34,3 @@
   .marked-body h1, .marked-body h2, .marked-body h3, .marked-body h4, .marked-body h5, .marked-body h6 {
       font-weight: 500;
   }
-
-  body {
-      overflow: hidden;
-  }
