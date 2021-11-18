@@ -188,7 +188,7 @@ div.card-content-mobi {
 div.card-content-mobi h1 {
   font-size: 24px;
   color: #00276a;
-  width: 320px;
+  width: 100%;
   text-align: center;
   border-bottom: 1px solid #00276a;
   margin-top: 0;
