@@ -51,11 +51,10 @@ div.card-content {
   position: absolute;
   width: 480px;
   height: 100%;
+  top: 60px;
   right: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
 }
 
 div.card-content h1 {
@@ -116,7 +115,6 @@ a.card-btn-mobi {
   height: 45px;
   background-color: #00276a;
   border-radius: 5px;
-  margin-top: 12px;
   border: 1px solid #00276a;
 
   display: flex;
@@ -132,6 +130,9 @@ a.card-btn-mobi {
 
 a.card-btn {
   width: 150px;
+  position: absolute;
+  bottom: 60px;
+  right: 30px;
 }
 
 a.card-btn-mobi {
@@ -151,8 +152,9 @@ div.title-card-mobi {
 
   width: 100%;
   max-width: 720px;
-  min-width: 414px;
+  min-width: 400px;
   height: 720px;
+  max-height: 100vh;
 
   position: relative;
 
