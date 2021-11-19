@@ -32,7 +32,7 @@ config:
   skin: # 主题颜色 theme-black theme-blue theme-green theme-purple
   layout: main-center # 布局方式 main-left main-center main-right
   toc: true # 是否开启文章章节目录导航
-  menu_highlight: false # 是否开启当前菜单高亮显示
+  menu_highlight: true # 是否开启当前菜单高亮显示
   thumbnail: false # enable posts thumbnail, options: true, false
   excerpt_link: Read More
 
@@ -40,12 +40,12 @@ config:
 pagination:
   number: false
   prev: 
-    alwayShow: true
+    alwayShow: false
   next:
-    alwayShow: true
+    alwayShow: false
 
 # Sidebar
-# sidebar: none
+# sidebar: right
 # widgets:
 #   - board  
 #   - category
@@ -100,18 +100,18 @@ profile:
       # rss: atom.xml
     # link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
-  skills:
-    Git: ★★★☆☆
-    Gulp: ★★★☆☆
-    Javascript: ★★★☆☆
-    HTML+CSS: ★★★☆☆
-    Bootstrap: ★★★☆☆
-    ThinkPHP: ★★★☆☆
-    平面设计: ★★★☆☆
-  # My Personal Links
-  links:
-    Twitter: https://twitter.com/kisuchama
-    Github: https://github.com/kisuchama   
+  # skills:
+  #   Git: ★★★☆☆
+  #   Gulp: ★★★☆☆
+  #   Javascript: ★★★☆☆
+  #   HTML+CSS: ★★★☆☆
+  #   Bootstrap: ★★★☆☆
+  #   ThinkPHP: ★★★☆☆
+  #   平面设计: ★★★☆☆
+  # # My Personal Links
+  # links:
+  #   Twitter: https://twitter.com/kisuchama
+  #   Github: https://github.com/kisuchama   
   # My Personal Labels
   # labels:
   #   - 前端

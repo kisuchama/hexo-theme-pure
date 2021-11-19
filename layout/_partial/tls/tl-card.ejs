@@ -1,8 +1,7 @@
 <!-- desktop -->
-<%- js('scripts/chibiTags') %>
 <div class="title-card hidden-xs hidden-sm hidden-md visible-lg" style="background-image:url('<%- url_for(post.path) %>card-default.png')">
     <div class="card-info">
-        <div class="card-event"><%= post.event.name %></div>
+        <div class="card-event"><%- post.event.name %></div>
         <div class="card-focus"><%= post.focus %></div>
     </div>
     <div class="card-content">
@@ -15,7 +14,7 @@
             <% for (var i = 0; i < post.heroes.length; i++) { %>
                 <% for (var chara in site.data.heroes) { %>
                     <% if (site.data.heroes[chara].name == post.heroes[i]) { %>
-                        <a href="<%- site.data.heroes[chara].tag %>"><img src="https://res.cloudinary.com/kisu/image/upload/c_limit,h_80/<%- site.data.heroes[chara].chibi %>"></a>
+                        <a href="<%- site.data.heroes[chara].tag %>"><img src="https://res.cloudinary.com/kisu/image/upload/<%- site.data.heroes[chara].chibi %>"></a>
                     <% } %>
                 <% } %>
             <% } %>
