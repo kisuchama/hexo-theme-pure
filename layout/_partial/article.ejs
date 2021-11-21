@@ -11,16 +11,6 @@
   </article>
 </div>
 
-<hr>
-
-<p class="article-meta">
-  <%- partial('post/date', {class_name: 'article-date', date_format: 'MMM D'}) %>
-  <%- partial('post/category') %>
-  <%- partial('post/tag') %>
-</p>
-
-<br><br>
-
 <% if (!index){ %>
-  <%- partial('post/nav') %>
+  <%- partial('post/meta') %>
 <% } %>
